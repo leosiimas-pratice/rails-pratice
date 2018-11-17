@@ -8,6 +8,13 @@ gem 'devise'
 gem 'cancancan', '~> 1.15.0'
 gem 'carrierwave'
 
+gem 'rails_admin_rollincode', '~> 1.0'
+
+# Gem para gerar os pdfs
+gem 'prawn-rails'
+# Gem para gerar os gráficos
+gem 'gruff'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
